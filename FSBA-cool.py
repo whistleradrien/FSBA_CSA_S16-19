@@ -12,7 +12,7 @@ from handcalcs.decorator import handcalc
 # beam. The program assumes the I section bends about the major axis
 ##########################################
 
-st.header('Beam Analysis of I Section', divider='blue')
+st.header('Beam Analysis of an I Section', divider='blue')
 
 st.sidebar.subheader("Bracing Length Parameters")
 L_min = st.sidebar.number_input("Minimum Unbraced Length ($mm$)", value=200)
