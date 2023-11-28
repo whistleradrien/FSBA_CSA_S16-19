@@ -140,7 +140,7 @@ if(Lateral_cond == "Unsupported"):
     st.markdown(f"The flexural capacity of :blue[**{design_section}**] section using *section properties program* is **{tt:.3f} kN.m**")
 else:
     tt = Mr/1e6
-    st.markdown(f"The flexural capacity of :blue[**{design_section}**] section using section properties program is **{rr:.3f} kN.m**")
+    st.markdown(f"The flexural capacity of :blue[**{design_section}**] section using *section properties program* is **{rr:.3f} kN.m**")
 
 
 perc_diff = (tt-rr)/100 * 100
