@@ -9,7 +9,7 @@ from handcalcs.decorator import handcalc
 ##########################################
 # BEAM ANALYSIS of I SECTION is an app that calculates the flexural capacity of an I section of different 
 # class for a lateral braced or laterally unbraced condition. The app also calculates the shear capacity of an I 
-# beam. The program assumes the I section bends about the major axis
+# beam. The program assumes the I section bends about the major axis and simply supported beam loading condition.
 ##########################################
 
 st.header('Beam Analysis of an I Section', divider='blue')
